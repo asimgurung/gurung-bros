@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+}
+a:visited {
+  color: lightpink;
+  background-color: transparent;
+  display: inline-block;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  font-size: 24px;
+}
