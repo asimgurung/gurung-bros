@@ -3,31 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- to comment cmd + / -->
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="/Todo/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <img
-      id="light-bg-image"
-      src="/Todo/images/bg-desktop-dark.jpg"
-      alt="picture"
-    />
+    <div class="header-image">
+      <img
+        id="light-bg-image"
+        src="/Todo/images/bg-desktop-dark.jpg"
+        alt="picture"
+      />
+    </div>
     <div class="center">
-      <h1>T O D O</h1>
+      <h1>TODO</h1>
     </div>
 
     <div id="myDIV" class="header">
       <input type="text" id="myInput" placeholder="Todo" />
     </div>
 
-    <ul id="myUL">
-      <li class="checked">Complete online JavaScipt course</li>
-      <li>Jog around the park 3x</li>
-      <li>10 minutes meditation</li>
-      <li>Read for 1 hour</li>
-      <li>Pick up groceries</li>
-      <li>Complete Todo App on Frontend Mentor</li>
-    </ul>
+    <div class="list">
+      <ul id="myUL">
+        <li class="checked">Complete online JavaScipt course</li>
+        <li>Jog around the park 3x</li>
+        <li>10 minutes meditation</li>
+        <li>Read for 1 hour</li>
+        <li>Pick up groceries</li>
+        <li>Complete Todo App on Frontend Mentor</li>
+      </ul>
+    </div>
     <footer class="attribution">
       <p>
         Challenge by
