@@ -1,0 +1,74 @@
+h1 {
+  color: aliceblue;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(235, 21%, 11%);
+  font-size: 18px;
+}
+
+#light-bg-image {
+  position: relative;
+}
+body {
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+@font-face {
+  font-family: "Josefin Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+}
+.center {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+body {
+  margin: 0;
+  min-width: 250px;
+}
+ul li.checked {
+  color: #888;
+  text-decoration: line-through;
+}
+
+ul li {
+  top: 20%;
+  left: 29%;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: hsl(235, 24%, 19%);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  width: 600px;
+  margin: 1px;
+  height: auto;
+}
+
+#myDIV {
+  position: absolute;
+  top: 25%;
+  left: 31%;
+}
+
+#myInput {
+  width: 600px;
+  padding: 12px 8px 12px 10px;
+  background: hsl(235, 24%, 19%);
+  color: white;
+  font-size: 18px;
+}
